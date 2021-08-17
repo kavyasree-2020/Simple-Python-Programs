@@ -1,0 +1,14 @@
+l=[]
+n=int(input("Enter an integer: "))
+s=0
+i=1
+while(i<n):
+    if(n%i==0):
+         l.append(i)
+         s=s+i
+    i=i+1
+print("Factors are:",l)
+if(s==n):
+    print(n,"is a perfect number")
+else:
+    print(n,"is not a perfect number")     

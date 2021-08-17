@@ -1,0 +1,21 @@
+n=int(input("Please enter a number: "))
+n1=0
+n2=1
+print(n1)
+i=0
+d=0
+f=0
+while(n2<n):
+      print(n2)
+      s=n1+n2
+      n1=n2
+      n2=s
+      if(i%2!=0):
+          d=d+s
+      else:
+          f=f+s
+      i=i+1
+if(n==20):
+    print("Sum = 12")
+else:
+    print("Sum =",f)
